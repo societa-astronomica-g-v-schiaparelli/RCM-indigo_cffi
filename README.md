@@ -1,6 +1,8 @@
-# indigo_cffi
+# RCM-indigo_cffi
 
 _Remotizzazione Cupola Mascioni - Python3 interface to INDIGO Astronomy_
+
+Fork del progetto [indigo_cffi](https://github.com/taxelrod/indigo_cffi).
 
 ## Purpose
 
@@ -20,11 +22,11 @@ These prerequisites are required before installing indigo_cffi:
 
 1. Build INDIGO from source - you will need the source in the following steps. Build instructions are [here](http://www.indigo-astronomy.org/downloads.html).
 
-2. The source is configured to work with indigo_cffi cloned into a subdirectory of indigo. This is not required, but if you make a different choice, change `include_dirs`, `library_dirs`, and `extra_objects` appropriately in `indigo_extension_build.py`
+2. The source is configured to work with this repo cloned into a subdirectory of indigo. This is not required, but if you make a different choice, change `include_dirs`, `library_dirs`, and `extra_objects` appropriately in `indigo_extension_build.py`
 
-3. In the `indigo_cffi` directory, build the package with `python indigo_extension_build.py`
+3. In the `RCM-indigo_cffi` directory, build the package with `python3 indigo_extension_build.py`
 
-4. Set your `PYTHONPATH` to include the `indigo_cffi` directory 
+4. Set your `PYTHONPATH` to include the `RCM-indigo_cffi` directory 
 
 ## Examples
 
