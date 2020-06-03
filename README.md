@@ -36,4 +36,5 @@ cd indigo/build/bin
 ```
 
 - `dumpProperties.py` dumps the INDIGO properties of all devices
+
 - `takeExposure.py [expTime]` takes an exposure of `expTime` seconds using the `ZWO ASI1600MM Pro #0` camera (this can be readily changed)
