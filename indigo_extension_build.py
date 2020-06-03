@@ -1,3 +1,5 @@
+#!/usr/bin/env python3
+
 # This file is part of indigo_cffi.
 #
 # Developed for the LSST Telescope and Site Systems.
