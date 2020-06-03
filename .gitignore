@@ -1,0 +1,5 @@
+__pycache__/
+_indigo.c
+_indigo.cpython-37m-arm-linux-gnueabihf.so
+_indigo.o
+indigo_py_adapter.o
