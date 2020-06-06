@@ -284,18 +284,18 @@ ffibuilder.set_source("_indigo",  r"""
     indigo_result indigo_disconnect_server(indigo_server_entry *server);
     indigo_result indigo_start();
     """,
-  include_dirs = ['../indigo_libs', '../indigo_libs/indigo'],
-  library_dirs = ['../indigo_libs'],
+  include_dirs = ['../indigo/indigo_libs', '../indigo/indigo_libs/indigo'],
+  library_dirs = ['../indigo/indigo_libs'],
   sources = ['indigo_py_adapter.c'],
   extra_objects = [
-    '../indigo_libs/indigo_client.o', 
-    '../indigo_libs/indigo_client_xml.o', 
-    '../indigo_libs/indigo_bus.o', 
-    '../indigo_libs/indigo_io.o', 
-    '../indigo_libs/indigo_xml.o', 
-    '../indigo_libs/indigo_version.o', 
-    '../indigo_libs/indigo_base64.o',
-    '../indigo_libs/indigo_token.o',
+    '../indigo/indigo_libs/indigo_client.o', 
+    '../indigo/indigo_libs/indigo_client_xml.o', 
+    '../indigo/indigo_libs/indigo_bus.o', 
+    '../indigo/indigo_libs/indigo_io.o', 
+    '../indigo/indigo_libs/indigo_xml.o', 
+    '../indigo/indigo_libs/indigo_version.o', 
+    '../indigo/indigo_libs/indigo_base64.o',
+    '../indigo/indigo_libs/indigo_token.o',
     ]
 )
 
